@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  <configuration>
+ 	<settings>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="cn.yfz.domain.Student" alias="Student"/>
+        <typeAlias type="cn.yfz.domain.Teacher" alias="Teacher"/>
+        <typeAlias type="cn.yfz.domain.Classes" alias="Classes"/>
+    </typeAliases>
+
+	
+  </configuration>
